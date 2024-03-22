@@ -7,7 +7,7 @@ const ytemp = [];
 chartIt();
 
 
- async function chartIt() {
+async function chartIt() {
     await getDataFromCsvFile();
     const ctx = document.getElementById('myChart');
 
@@ -16,7 +16,7 @@ chartIt();
         data: {
             labels: xYears,
             datasets: [{
-        label: 'Combined Land-Surface Air and Sea-Surface Water Temperature  C°',
+                label: 'Combined Land-Surface Air and Sea-Surface Water Temperature  C°',
                 data: ytemp,
                 fill: false,
                 backgroundColor: 'rgba(255,99,132,0.2)',
@@ -29,8 +29,8 @@ chartIt();
                 y: {
                     ticks: {
 
-                        callback: function(value, index, ticks) {
-                            return  value  + "°";
+                        callback: function (value, index, ticks) {
+                            return value + "°";
                         }
                     }
                 }

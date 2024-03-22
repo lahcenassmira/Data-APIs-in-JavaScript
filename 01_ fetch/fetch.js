@@ -17,8 +17,7 @@ console.log("about fetch");
 
 
 //   .1: fetch()
-
-async function createObjectURL(){
+async function createObjectURL() {
   const response = await fetch('fetch.jpg');
   const blob = await response.blob();
   document.querySelector("img").src = URL.createObjectURL(blob);
