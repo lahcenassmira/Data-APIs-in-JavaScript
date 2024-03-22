@@ -1,7 +1,8 @@
 # 1  => Call fetch (__________) path with arguments "fetch.jpg" 
- # 2 => response -------> "body
+# 2 => response -------> "body
     - text 
     - blob(img)
     - json  
 
-# 3 => make an <img>
+ # 3 => make an <img>
+ # 4 => async / await

@@ -16,7 +16,7 @@ console.log("about fetch");
 // }).catch(error => console.error(error));
 
 
-//async / await
+1.1: fetch()
 
 async function createObjectURL(){
   const response = await fetch('fetch.jpg');
